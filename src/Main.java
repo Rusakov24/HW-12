@@ -6,10 +6,8 @@ public class Main {
         Book book1 = new Book("Война и мир", author1, 1867);
         Book book2 = new Book("Бегущий в лабиринте", author2, 2009);
 
-        // Изменим год публикации одной из книг
         book2.setPublicationYear(1931);
 
-        // Вывод информации о книгах
         System.out.println("Книга 1:");
         System.out.println("Название: " + book1.getTitle());
         System.out.println("Автор: " + book1.getAuthor().getFirstName() + " " + book1.getAuthor().getLastName());
