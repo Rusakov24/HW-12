@@ -24,4 +24,5 @@ public int getPublicationYear() {
 public void setPublicationYear(int publicationYear) {
     this.publicationYear = publicationYear;
 }
+
 }
